@@ -159,7 +159,7 @@ faceswp_array = np.asarray(faceswp)
 facesbp_array = np.asarray(facesbp)
 
 t1 = scipy.stats.ttest_rel(wordswp_array,wordsbp_array)
-t2 = scipy.stats.ttest_rel(wordswp_array,wordsbp_array)
+t2 = scipy.stats.ttest_rel(faceswp_array,facesbp_array)
 
 # words: t=-5.36, p=2.19e-5
 # faces: t=-2.84, p=0.0096
